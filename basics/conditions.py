@@ -20,7 +20,7 @@ while i<5 and i==10:
 
 # For loops for words
 for letter in 'Monday':
-    print(obj)
+    print(letter)
 # iterating list
 for obj in countries:
     if(obj=="pakistan"):
@@ -32,3 +32,14 @@ for value in range(4,7):
 #else with for loop 
 else:
     print('looping terminated')
+
+
+# nested loops with 2d list
+my_list=[
+    [1,2,4],
+    [12,13,14],
+    [21,22,24]
+]
+for item in my_list:
+    for row in item:
+        print(row)
